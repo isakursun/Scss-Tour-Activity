@@ -1,0 +1,41 @@
+.tours{
+    margin: 50px auto;
+    padding: 0 50px;
+    &-row{
+       column-gap: 300px;
+    .content-col{
+        width: 40%;
+
+        h1{
+            font-size: 7vmin;
+            color: var(--secondary-color);
+        }
+
+        p{
+            margin: 30px 0;
+            padding: 0;
+        }
+
+        .line{
+            margin-left: -1px;
+        }
+    }
+
+    .image-col{
+        width: 60%;
+    }
+
+    &-col{
+        width: 50%;
+        .image-gallery{
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                width: 300px;
+                margin: 10px;
+            }
+        }
+    }
+
+    }
+}
